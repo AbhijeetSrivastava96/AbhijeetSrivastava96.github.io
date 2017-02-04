@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<head>
+<title>Abhijeet's Port Folio.</title>
+
+
+
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+
+
+
+<h1>ABHIJEET SRIVASTAVA<h1>
+<h2>My Port_folio</h2>
+<img class=displayed src="avi.jpg" id =element1> <br>
+
+<a href=about.html><button class="button">About</button></a><br>
+<a href=skills.html><button class="button">Skills</button></a><br>
+<a href=contacts.html><button class="button">Contacts</button></a><br>
+<a href=projects.html><button class="button">Projects</button></a><br>
+
+
+</head>
+<body>
+<style>
+h1{
+ margin: 0 0 35px;
+  text-transform: uppercase;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: white;
+  margin-left: 500px;
+  margin-right: 200px;
+  font-size: 40px;
+}
+.circle{
+border-radius: 50% 50% 50% 50%;
+width: 250px;
+height: 250px;
+}
+#element1{
+		border-radius: 50% 50% 50% 50%;
+		height: 400px;
+		width: 400px;
+		margin-left: 500px;
+		margin-right: 400px;
+		}
+			
+
+h2{
+	color:white;
+	margin-left: 600px;
+	margin-right: 500px;
+	font-size: 35px;
+	font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body{
+background-image: url("intro.jpg");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+
+
+img.displayed{
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+
+.button{
+background-color: black;
+border: none;
+color: white;
+padding: 8px 20px;
+text-align: centre;
+text-decoration: none ;
+display: inline-block;
+font-size: 20px;
+margin: 4px 2px;
+cursor: pointer;
+font-family: Comic Sans MS;
+}
+
+p{
+color:white;
+}
+
+
+
+</style>
+
+
+
+
+
+<p>A script on this page starts this clock:</p>
+
+<p id="demo"></p>
+
+<script>
+var myVar=setInterval(function(){myTimer()},1000);
+
+function myTimer() {
+    var d = new Date();
+    document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+}
+</script>
+
+
+
+
+
+
+</body>
+</html>
